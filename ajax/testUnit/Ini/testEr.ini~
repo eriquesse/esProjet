@@ -1,0 +1,13 @@
+;Configuration erreur
+
+[première Section]
+item1=[23, 3]
+item2=deux
+item3="trois, 3"
+item4=12.56
+
+[deuxième Section]
+item1[]=1
+item1[]=2
+item1[]=3
+item1[]=4

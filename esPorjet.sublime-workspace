@@ -1,0 +1,994 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"j",
+				"json_decode"
+			],
+			[
+				"array_s",
+				"array_shift"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"array_p",
+				"array_pop"
+			],
+			[
+				"th",
+				"throw	Throw Exception"
+			],
+			[
+				"p",
+				"possibleRoute"
+			],
+			[
+				"array_k",
+				"array_key_exists"
+			],
+			[
+				"json_",
+				"json_encode"
+			],
+			[
+				"semes",
+				"semestre"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"jso",
+				"json_encode"
+			],
+			[
+				"var",
+				"var_export"
+			],
+			[
+				"arg",
+				"func_get_args"
+			],
+			[
+				"nom",
+				"noms"
+			],
+			[
+				"Sc",
+				"ScodocRelais"
+			],
+			[
+				"scodo",
+				"scodocRelais"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"ar",
+				"arguments"
+			],
+			[
+				"loc",
+				"local"
+			],
+			[
+				"_",
+				"_scodoc"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"fot",
+				"font-style"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"d",
+				"dl	Tag"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"array_m",
+				"array_merge"
+			],
+			[
+				"sem",
+				"semestres"
+			],
+			[
+				"is_a",
+				"is_array"
+			],
+			[
+				"strr",
+				"str_replace"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"strt",
+				"strtolower"
+			],
+			[
+				"Config",
+				"Config-getItems	Config-getItems"
+			],
+			[
+				"App",
+				"App-getLocale	App-getLocale"
+			],
+			[
+				"getu",
+				"getUserIdFormCookie"
+			],
+			[
+				"is_n",
+				"is_null"
+			],
+			[
+				"Red",
+				"Redirect-to	Redirect-to"
+			],
+			[
+				"isU",
+				"isUserIdMemorised"
+			],
+			[
+				"base",
+				"base64_encode"
+			],
+			[
+				"base64",
+				"base64_encode"
+			],
+			[
+				"content",
+				"file_get_contents"
+			],
+			[
+				"k",
+				"keys"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"Sess",
+				"Session-put	Session-put"
+			],
+			[
+				"ke",
+				"keyPrivateRSA"
+			],
+			[
+				"Se",
+				"Session-has	Session-has"
+			],
+			[
+				"Cook",
+				"Cookie-unqueue	Cookie-unqueue"
+			],
+			[
+				"getho",
+				"gethostname"
+			],
+			[
+				"user",
+				"userID"
+			],
+			[
+				"C",
+				"Cookie-has	Cookie-has"
+			],
+			[
+				"usr",
+				"userID"
+			],
+			[
+				"u",
+				"userID"
+			],
+			[
+				"sho",
+				"showEtudiant"
+			],
+			[
+				"n",
+				"NAV	Tag"
+			],
+			[
+				"array",
+				"array	$… = array (…)"
+			],
+			[
+				"im",
+				"background-image"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"geth",
+				"gethostbyname"
+			],
+			[
+				"Ro",
+				"Route-controllers	Route-controllers"
+			],
+			[
+				"Rout",
+				"Route-get	Route-get"
+			],
+			[
+				"Route",
+				"Route-get	Route-get"
+			],
+			[
+				"l",
+				"legend	Tag"
+			],
+			[
+				"flg",
+				"flgMem"
+			],
+			[
+				"se",
+				"seances"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"Po",
+				"position"
+			],
+			[
+				"cre",
+				"creneau"
+			],
+			[
+				"L",
+				"liste"
+			],
+			[
+				"P",
+				"Println"
+			],
+			[
+				"dum",
+				"creneauxDump"
+			],
+			[
+				"dump",
+				"creneauDump"
+			],
+			[
+				"cren",
+				"creneauxDump"
+			],
+			[
+				"c",
+				"creneaux"
+			],
+			[
+				"sol",
+				"solution"
+			],
+			[
+				"s",
+				"solution"
+			],
+			[
+				"soluti",
+				"solutions"
+			],
+			[
+				"gr",
+				"groupe"
+			],
+			[
+				"dispo",
+				"dispoID"
+			],
+			[
+				"mat",
+				"matiere"
+			],
+			[
+				"ca",
+				"categorie"
+			],
+			[
+				"dis",
+				"dispoJrsHrs"
+			],
+			[
+				"Pr",
+				"Printf"
+			],
+			[
+				"di",
+				"disposID"
+			],
+			[
+				"err",
+				"erreur"
+			],
+			[
+				"er",
+				"erreur"
+			],
+			[
+				"Creneau",
+				"Creneaux"
+			],
+			[
+				"ni",
+				"nivProf"
+			],
+			[
+				"ta",
+				"tabTmp"
+			],
+			[
+				"ds",
+				"dispoBin"
+			],
+			[
+				"get",
+				"GetDispoID"
+			],
+			[
+				"uint",
+				"uint32"
+			],
+			[
+				"seance",
+				"seanceID"
+			],
+			[
+				"sa",
+				"salleID"
+			],
+			[
+				"msg",
+				"msgReste"
+			],
+			[
+				"nb",
+				"nbReste"
+			],
+			[
+				"so",
+				"solutions"
+			],
+			[
+				"indic",
+				"indicPos"
+			],
+			[
+				"in",
+				"indicPos"
+			],
+			[
+				"ind",
+				"indicateur"
+			],
+			[
+				"Print",
+				"Printf"
+			],
+			[
+				"fin",
+				"finTab"
+			],
+			[
+				"S",
+				"Seances"
+			],
+			[
+				"pr",
+				"printSeances"
+			],
+			[
+				"seand",
+				"seanceID"
+			],
+			[
+				"sean",
+				"seanceDeb"
+			],
+			[
+				"sea",
+				"seances"
+			],
+			[
+				"E",
+				"Err"
+			],
+			[
+				"Cren",
+				"Creneau"
+			],
+			[
+				"e",
+				"error"
+			],
+			[
+				"prit",
+				"Printf"
+			],
+			[
+				"sall",
+				"sallesID"
+			],
+			[
+				"D",
+				"dispoID"
+			],
+			[
+				"Dispo",
+				"Disponibilité"
+			],
+			[
+				"Er",
+				"ErrFN"
+			],
+			[
+				"ER",
+				"ErrFn"
+			],
+			[
+				"ERR",
+				"ErrI32"
+			],
+			[
+				"Err",
+				"ErrID"
+			],
+			[
+				"init",
+				"initBdd"
+			],
+			[
+				"ID",
+				"ID_MAX8"
+			],
+			[
+				"mati",
+				"matière"
+			],
+			[
+				"Es",
+				"EstId"
+			],
+			[
+				"ui",
+				"uint16"
+			],
+			[
+				"salle",
+				"salleID"
+			],
+			[
+				"R",
+				"RetT16"
+			],
+			[
+				"prof",
+				"profID"
+			],
+			[
+				"uin",
+				"uint32"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"p",
+				"Package Control: Disable Package"
+			],
+			[
+				"pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: pa",
+				"Package Control: Disable Package"
+			],
+			[
+				"unfol",
+				"Unfold Comments"
+			],
+			[
+				"fol",
+				"Unfold Comments"
+			],
+			[
+				"fold",
+				"Unfold Comments"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"sub",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"comm",
+				"Unfold Comments"
+			],
+			[
+				"h",
+				"HTMLBeautify"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"cssli",
+				"Preferences: Csslisible Key Bindings – Default"
+			],
+			[
+				"css",
+				"CSSLint: Run CSSLint"
+			],
+			[
+				"csslis",
+				"Preferences: Csslisible Key Bindings – User"
+			],
+			[
+				"unf",
+				"Unfold Comments"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"ge",
+				"Laravel Generate: Test"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Class"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 602.0
+	},
+	"console":
+	{
+		"height": 378.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": true,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": true,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/esProjet/ajax/saisir/seance/index.php",
+		"/var/www/esProjet/ajax/routage.php",
+		"/var/www/esProjet/ajax/definir/seances.php",
+		"/var/www/esProjet/ajax/saisir/seance/seance.php",
+		"/var/www/esProjet/ajax/saisir/seance.php",
+		"/var/www/esProjet/esPorjet.sublime-project",
+		"/var/www/esProjet/ajax/saisir/html/derniere.html",
+		"/var/www/esProjet/js/main.js",
+		"/var/www/esProjet/ajax/choisir/couts.php",
+		"/var/www/esProjet/ajax/choisir/etudiant.php",
+		"/var/www/esProjet/ajax/choisir/personnel.php",
+		"/var/www/esProjet/ajax/choisir/production.php",
+		"/var/www/esProjet/ajax/choisir/projet.php",
+		"/var/www/esProjet/ajax/definir/couts.php",
+		"/var/www/esProjet/ajax/definir/etudiants.php",
+		"/var/www/esProjet/ajax/definir/listes.php",
+		"/var/www/esProjet/ajax/definir/projets.php",
+		"/var/www/esProjet/ajax/saisir/ajout.php",
+		"/var/www/esProjet/ajax/saisir/derniere.php",
+		"/var/www/esProjet/ajax/voir/archives.php",
+		"/var/www/esProjet/ajax/voir/autres.php",
+		"/var/www/esProjet/ajax/voir/bilan.php",
+		"/var/www/esProjet/ajax/voir/documents.php",
+		"/var/www/esProjet/ajax/voir/historique.php",
+		"/var/www/esProjet/ajax/voir/personnel.php",
+		"/var/www/iut/notes/app/config/distant/app.php",
+		"/var/www/iut/notes/app/config/distant/database.php",
+		"/var/www/iut/notes/bootstrap/start.php",
+		"/var/www/iut/notes/htdocs/test.php",
+		"/var/www/iut/notes/app/config/database.php",
+		"/home/eric/windows/scodoc.php",
+		"/var/www/iut/notes/app/controllers/ScodocCtrl.php",
+		"/var/www/iut/notes/app/views/common/master.blade.php",
+		"/var/www/iut/notes/app/views/semestre.blade.php",
+		"/var/www/iut/notes/htdocs/css/default.css",
+		"/var/www/iut/notes/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php",
+		"/var/www/iut/notes/app/views/login.blade.php",
+		"/var/www/iut/notes/app/views/index.blade.php",
+		"/var/www/iut/notes/app/routes.php",
+		"/var/www/iut/notes/app/filters.php",
+		"/var/www/iut/notesRelais/scodoc.php",
+		"/var/www/iut/notes/app/config/app.php",
+		"/var/www/iut/notes/app/config/local/app.php",
+		"/var/www/iut/notes/vendor/laravel/framework/src/Illuminate/Foundation/Application.php",
+		"/var/www/iut/notes/vendor/laravel/framework/src/Illuminate/Foundation/EnvironmentDetector.php",
+		"/var/www/iut/notes/vendor/laravel/framework/src/Illuminate/Html/HtmlBuilder.php",
+		"/var/www/iut/notes/htdocs/css/bootstrap.css",
+		"/var/www/iut/notes/htdocs/test.html",
+		"/var/www/iut/notes/app/controllers/IndexCtrl.php",
+		"/var/www/iut/notes/app/controllers/AuthCtrl.php",
+		"/var/www/iut/notes/notes_/index.php",
+		"/var/www/iut/notes/app/controllers/scodoc/scodoc.inc.php",
+		"/var/www/iut/notes/vendor/laravel/framework/src/Illuminate/Foundation/changes.json",
+		"/home/eric/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+		"/home/eric/.config/sublime-text-2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/home/eric/.config/sublime-text-2/Packages/CSSLint/CSSLint.sublime-settings",
+		"/var/www/iut/notes/app/controllers/CAS/Client.php",
+		"/var/www/iut/notes/app/controllers/SemestreCtrl.php",
+		"/var/www/iut/notes/app/views/semestre-table.blade.php",
+		"/var/www/iut/notes/app/views/semestre.blade.php.old",
+		"/var/www/iut/notes/notes_/scodoc.inc.php",
+		"/var/www/iut/notes/notes_/test.php",
+		"/var/www/iut/notes/notes.sublime-workspace",
+		"/var/www/iut/notes/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Cookie.php",
+		"/var/www/iut/notes/app/controllers/CasCtrl.php",
+		"/var/www/iut/notes/app/controllers/scodoc/CAS.php",
+		"/var/www/iut/notes/app/controllers/scodoc/CAS/Autoload.php",
+		"/var/www/iut/notes/app/controllers/scodoc.inc.php",
+		"/var/www/iut/notes/htdocs/css/erreur.css",
+		"/var/www/iut/notes/app/controllers/BaseController.php",
+		"/var/www/iut/notes/app/database/migrations/2014_03_03_131431_create_users.php",
+		"/var/www/iut/notes/app/database/seeds/DatabaseSeeder.php",
+		"/var/www/iut/notes/app/database/seeds/UserTableSeeder.php",
+		"/var/www/iut/notes/public.pem",
+		"/var/www/iut/notes/private.pem",
+		"/var/www/iut/notes/app/database/migrations/2014_03_03_131300_users.php",
+		"/var/www/iut/notes/vendor/symfony/browser-kit/Symfony/Component/BrowserKit/CookieJar.php",
+		"/var/www/iut/notes/vendor/laravel/framework/src/Illuminate/Cookie/CookieJar.php",
+		"/var/www/iut/notes/vendor/laravel/framework/src/Illuminate/Support/Facades/Cookie.php",
+		"/var/www/iut/notes/app/controllers/CAS/CookieJar.php",
+		"/var/www/iut/notes/vendor/laravel/framework/src/Illuminate/Foundation/start.php",
+		"/var/www/iut/notes/vendor/laravel/framework/src/Illuminate/Cache/FileStore.php",
+		"/var/www/iut/notes/app/_ide_helpers.php",
+		"/var/www/iut/notes/app/storage/sessions/cfca657eae1b9267f374e44c5fd9aa9eaa3cddf5",
+		"/var/www/iut/notes/app/storage/sessions/178b0c38a0ad8b0090e0e489f5a07fb9426e4514",
+		"/var/www/iut/notes/app/storage/sessions/238a5d30b75b82c3b54f16468b8b039483e60115",
+		"/var/www/iut/notes/app/config/session.php",
+		"/var/www/iut/notes/app/controllers/CAS.php",
+		"/var/www/iut/notes/app/controllers/.gitkeep",
+		"/var/www/iut/notes/notes_/cas.inc.php",
+		"/var/www/iut/notes/notes_/CAS.php",
+		"/var/www/iut/notes/htdocs/test2.html",
+		"/var/www/iut/notes/composer.json",
+		"/var/www/iut/notes/app/views/404.blade.php",
+		"/var/www/iut/notes/htdocs/css/bootstrap-responsive.css",
+		"/var/www/iut/notes/htdocs/css/bootstrap-responsive.min.css",
+		"/var/www/iut/notes/htdocs/css/ui-darkness/jquery-ui-1.10.4.custom.css",
+		"/var/www/iut/notes/test.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"<open folders>",
+			"",
+			"activite",
+			"",
+			"setSemestreView",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"php",
+			"activite",
+			"typeActivite",
+			"detail",
+			"  echo file_get_contents(basename(__file__,\"php\") . \"html.inc\");",
+			"CasCtrl",
+			"https",
+			"prepareView",
+			"Debugbar::",
+			"Debugbar",
+			"semestreVu",
+			"setSemestreView\nsetSemestreView",
+			"setSemestreView",
+			"self::$semestreSelectionne",
+			"self::$_scodoc->dept",
+			"getSemestreslist",
+			"isEtudiantValide",
+			"getSemestreslist",
+			"ScodocCtrl",
+			"setEtudInfosPage",
+			"setDataMenuBar",
+			"setNip",
+			"initScodoc",
+			"'local'",
+			"self::$_scodoc",
+			"ScodocCtrl",
+			"$this->url",
+			"function style(",
+			"htmlBuilder",
+			"class EnvironmentDetector",
+			"detectEnvironment",
+			"SERVER_NAME",
+			"$_SERVER",
+			"selectedevals",
+			"$this->bulletin",
+			"setBulletin",
+			"getSemestreInfo",
+			"panel-heading",
+			"bg-info",
+			"</nav",
+			"<nav",
+			"nav ",
+			"echo",
+			"memoriseUserID",
+			"userID",
+			"::$",
+			"$vue",
+			"getDonneesViewSemestre",
+			"setUserIDMemorised",
+			"$this->",
+			"prepareView",
+			"$mod['code']",
+			"$ue['acronyme']",
+			"situation",
+			"s=\"",
+			"getSemestreInfo",
+			"setNotesJuryEtudiant",
+			"SEM",
+			"setSemestreVu",
+			"setCurrentSemestre",
+			"setAllSemestres",
+			"setEtudInfosPage",
+			"semestreVu",
+			"setBulletin",
+			"getNotes",
+			"getIdentite",
+			"estDemissionnaire",
+			"isUserIdMemorised",
+			"getUserIdFormCookie",
+			"setUserID",
+			"makeViewError",
+			"setSemestreVu",
+			"http_build_headers",
+			"warning",
+			"text-",
+			"danger",
+			"bg-danger",
+			"getLocale",
+			"App::environment",
+			"Log::info",
+			"Debugbar::info",
+			"set_cookie",
+			"CAS.php",
+			"include",
+			"TESTS",
+			".welcome",
+			"welcome",
+			"container",
+			"isUserIdMem",
+			"isUserIdMemorised",
+			"->isSecure",
+			"->secure",
+			"class Cookie",
+			"function make(",
+			"function make ",
+			"function make",
+			"make",
+			"forget",
+			"Facade",
+			"facades",
+			"isMachine",
+			"EnvironmentDetector",
+			"detectEnvironment",
+			"class Cookie",
+			"class Cookies",
+			"function forget",
+			"function forever",
+			"'debug'",
+			"debug",
+			"brand",
+			"max-width:979px",
+			"max-width:",
+			"600",
+			"600px",
+			"600",
+			"980",
+			"navbar",
+			"nav-collapse",
+			"grid-float-breakpoint",
+			"collapse",
+			"  =  ",
+			"=",
+			"responsive.less",
+			"function script("
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"typeActivite",
+			"typeTache",
+			"activite",
+			"  echo file_get_contents(\"html/\" . basename(__file__,\"php\") . \"html\");",
+			"ScodocRelais",
+			"</div",
+			"div ",
+			"$view",
+			"self::$",
+			"$codeModule",
+			"$codeUE",
+			"s = \"",
+			"setSemestreView",
+			"TESTS_UNIV",
+			"max-width:481px",
+			"481px",
+			" = "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.csslint_result_view":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 270.0,
+	"status_bar_visible": true
+}

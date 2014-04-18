@@ -1,0 +1,46 @@
+@import url("//css/fonts/Lato-Regular");
+
+  body {
+		margin 		: 0;
+		font-family : 'Lato Regular', sans-serif;
+		text-align 	: center;
+		color 		: #999;
+		background : #05488c fixed no-repeat center center ;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	body { background-image: url('../img/nulPart-max.jpg'); }
+}
+ 
+/* desktop */
+@media (min-width: 980px) and (max-width: 1200px) {
+	body { background-image: url('../img/nulPart-1200.jpg'); }
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	body { background-image: url('../img/nulPart-980.jpg'); }
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	body { background-image: url('../img/nulPart-768.jpg'); }
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	body { background-image: url('../img/nulPart-min.jpg'); }
+
+}
+
+a {
+	text-decoration : none;
+	cursor 			: pointer;
+	color 			: #999;
+}
+
+h1 {
+	font-size 	: 32px;
+	margin 		: 16px 0;
+}

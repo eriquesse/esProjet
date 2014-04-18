@@ -1,0 +1,83 @@
+{
+  "projects"  : {
+    "id"          : "INTEGER",
+    "code"        : "TEXT",
+    "description" : "TEXT"
+  },
+  "sessions"  : { 
+    "id"    : "INTEGER PRIMARY KEY AUTOINCREMENT",
+    "Tstart" : "INTEGER",
+    "Tend"   : "INTEGER"
+  },
+  "tasks"     : {
+    "id"    : "INTEGER PRIMARY KEY AUTOINCREMENT",
+    "delay" : "INTEGER",
+    "comm"  : "TEXT"
+  },
+  "users"     : {
+    "id"        : "INTEGER PRIMARY KEY AUTOINCREMENT",
+    "name"      : "TEXT",
+    "forename"  : "TEXT",
+    "imelPro"   : "TEXT",
+    "imelPerso" : "TEXT",
+    "mobile"    : "TEXT",    
+    "cost"      : "INTEGER",
+    "noUniv"    : "TEXT",
+    "password"  : "TEXT",
+    "logOn"     : "TEXT"
+},
+  "status"    : {
+    "id"          : "INTEGER PRIMARY KEY AUTOINCREMENT",
+    "classID"     : "INTEGER",
+    "code"        : "TEXT",
+    "description" : "TEXT"
+  },
+  "resources" : {
+    "id"          : "INTEGER PRIMARY KEY AUTOINCREMENT",
+    "classID"     : "INTEGER",
+    "code"        : "TEXT",
+    "description" : "TEXT",
+    "cost"        : "INTEGER"
+  },
+  "balanceSheet" : {
+    "category" : "INTEGER",
+    "id"       : "INTEGER",
+    "sum"      : "INTEGER"
+  },
+  "class"     : {
+    "id"          : "INTEGER",
+    "code"        : "TEXT",
+    "description" : "TEXT"
+  },
+  "groups"    : {
+    "id"          : "INTEGER",
+    "code"        : "INTEGER",
+    "description" : "TEXT"
+  },
+
+  "session_user" : {
+    "sessionID" : "INTEGER",
+    "etdID"     : "INTEGER",
+    "reccord"   : "BOOLEAN" 
+  },
+  "session_task" : {
+    "sessionID" : "INTEGER",
+    "taskID"    : "INTEGER"
+  },
+  "user_status"  : {
+    "userID"   : "INTEGER",
+    "statusID" : "INTEGER"
+  },
+  "tutor_project" : {
+    "projectID" : "INTEGER",
+    "userID" : "INTEGER"
+  },
+  "student_project" : {
+    "projectID" : "INTEGER",
+    "userID"    : "INTEGER"
+  },
+  "student_group" : {
+    "groupID" : "INTEGER",
+    "userID"  : "INTEGER"
+  }
+}

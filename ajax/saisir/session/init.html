@@ -1,0 +1,251 @@
+<h1 class="text-center">Définir les taches effectuées lors des séances</h1>
+<div class="container callout callout-info">
+  <h4>Consignes :</h4>
+  <ul>
+    <li>Vous devez saisir les taches <b>réellement</b> effectuées, au maximum, <b>une semaine</b> après la date plannifiée.<br>Dans le cas contraire, une <u>absence</u> sera saisie automatiquement.</li>
+    <li>Vous pouvez ajouter des séances personnelles, uniquement s'il n'y a plus de séances planifiées à saisir.</li>
+        <li>Une séance saisie, et validée, n'est <b>plus modifiable</b>.</li>
+  </ul>
+</div>
+<div id = "suppTache" class = "modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Suppression d'une tache</h4>
+      </div>
+      <div class="modal-body">
+        <p>Êtes vous certain de vouloir supprimer cette tache ?</p>
+      </div>
+      <div class="modal-footer">
+        <button
+          role  = "confirmer"
+          class = "btn-danger">Supprimer
+        </button>
+        <button class="btn-default">Oups!! j'ai fait une erreur ;-)</button>
+      </div>
+    </div>
+  </div>
+</div><!-- Avertissement -->
+<div id = "erreur" class = "modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content alert-danger">
+      <div class="modal-header">
+        <h4 class="modal-title">Une erreur est apparue</h4>
+      </div>
+      <div class="modal-body">
+        <ul></ul>
+      </div>
+      <div class="modal-footer">
+        <button
+          role  = "cacher"
+          class = "btn-danger"
+          data-dismiss="modal">Je corrige
+        </button>
+      </div>
+    </div>
+  </div>
+</div><!-- Erreurs -->
+<div id = "newTache" class="hidden">
+  <div class="input-group">
+    <span class="input-group-btn">
+      <button
+        class = "btn-info infoBulle"
+        role  = "duree"
+        title = "Cliquez pour changer la durée"
+        data-placement = "right"
+        data-toggle    = "tooltip">
+        0:00
+      </button>
+    </span>
+    <input type="text" class="form-control" placeholder="Description de la tache &hellip;">
+    <span class="input-group-btn">
+      <button
+        class = "infoBulle disabled"
+        role  = "valider"
+        title = "Cliquez pour valider la tache">
+        <span class="glyphicon glyphicon-edit"></span>
+      </button>
+    </span>
+  </div>
+</div><!-- Nouvelle tache -->
+<div id = "itemStudent" class="hidden">
+      <div class="checkbox list-group-item">
+        <label>
+          <input type="checkbox" value="">
+        </label>
+      </div>
+</div><!-- Item etudiant -->
+  
+<div id = "sessions" class="container">
+  <div role = "liste" class = "col-md-6 list-group">
+    $listeSession$
+    <p
+       href="#"
+       class="list-group-item alert-success infoBulle"
+       data-toggle="tooltip"
+       data-placement="top"
+       title="Toutes les séances passées ont été renseignées"
+       style = "display:none;">
+      Aucune séance à renseigner.
+    </p>
+  </div>
+  <div role = "ajout" class = "col-md-6"  style = "display:none">
+    <button
+      class = "btn-primary"
+      role  = "ajouter">
+      Ajouter une séance personnelle
+    </button>
+  </div>
+  <div role = "duree" class = "col-md-6">
+    <p>Durée de la séance restant à définir : <span></span></p>
+    <div class="progress progress-striped active" id = "barre">
+      <div
+           class="progress-bar progress-bar-info"
+           role="progressbar"
+           aria-valuenow="10"
+           aria-valuemin="0"
+           aria-valuemax="100"
+           style="width:0%">
+      </div>
+      <div
+           class="progress-bar progress-bar-warning"
+           role="progressbar"
+           aria-valuenow="100"
+           aria-valuemin="0"
+           aria-valuemax="100"
+           style="width: 100%">
+      </div>
+    </div>
+  </div>
+  <div role = "validation" class = "col-md-6 row btn-group" style="display:none">
+    <button
+      class = "btn-primary col-md-6"
+      role  = "definir">
+      <span class="glyphicon glyphicon-ok"> </span>
+      Valider cette séance
+    </button>
+    <button
+      class = "btn-default col-md-6"
+      role  = "continuer">
+      <span class="glyphicon glyphicon-remove"> </span>
+      Annuler
+    </button>
+  </div>
+</div><!-- liste des sessions -->
+<div id = "session" class="btn-toolbar col-md-12"  style = "display:none">
+  <div class="col-md-4">
+    <div class="input-group">
+      <span class="input-group-addon">
+        <span class="glyphicon glyphicon-calendar"></span>
+      </span>
+      <input type="date" class="form-control text-center" placeholder="Date [ 23/12/2014 ]">
+      <span class="input-group-btn">
+        <button
+          class = "btn-info infoBulle"
+          title = "Un jour avant"
+          role = "avant">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </button>
+        <button
+          class = "btn-info infoBulle"
+          title = "Un jour après"
+          role  = "apres">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </button>
+      </span>
+    </div><!-- Date -->
+    <div class="input-group">
+      <span class="input-group-addon">
+        <span class="glyphicon glyphicon-time"></span>
+      </span>
+      <input type="time" class="form-control text-center" placeholder="Heure de début [ 08:00 ]">
+      <span class="input-group-addon">
+        <span class="glyphicon glyphicon-step-backward"></span>
+      </span>
+    </div><!-- Heure début -->
+    <div class="input-group">
+      <span class="input-group-addon">
+        <span class="glyphicon glyphicon-time"></span>
+      </span>
+      <input type="time" class="form-control text-center" placeholder="Heure de fin [ 09:00 ]">
+      <span class="input-group-addon">
+        <span class="glyphicon glyphicon-step-forward"></span>
+      </span>
+    </div><!-- Heure fin -->
+  </div><!-- Première colonne -->
+  <div class="col-md-5 list-group">
+    <div class="checkbox list-group-item alert-info">
+      <h4>Liste des étudiants concernés</h4>
+    </div>
+  </div><!-- Deuxième colonne -->
+</div><!-- Ajouter une séance -->
+<div  id = "taches" class="col-md-12 ligne">
+</div><!-- Liste des taches -->
+<div id = "typeTache" class="btn-toolbar ligne col-md-12">
+</div><!-- Liste des types de tache -->
+<div id = "typeActivite" class="btn-toolbar ligne">
+</div><!-- liste des types d'activité -->
+<div id = "details" class="btn-group ligne col-md-12" >
+  <div class="row ligne">
+    <div class="disabled col-md-3">
+      Précisez avec qui et/ou quoi :
+    </div>
+    <div class="col-md-3">
+      <div class="input-group">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Etudiants"
+          id="etudiants">
+        <span class="input-group-btn">
+          <button class="btn-default" role="plus">
+            <span class="glyphicon glyphicon-plus"></span>
+          </button>
+        </span>
+      </div><!-- /input-group -->
+    </div><!-- /.col-lg-6 -->
+    <div class="col-md-3">
+      <div class="input-group">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Moyens de production"
+          id="production">
+        <span class="input-group-btn">
+          <button class="btn-default" role="plus">
+            <span class="glyphicon glyphicon-plus"></span>
+          </button>
+        </span>
+      </div><!-- /input-group -->
+    </div><!-- /.col-lg-6 -->
+    <div class="col-md-3">
+      <div class="input-group">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Personnels"
+          id="personnels">
+        <span class="input-group-btn">
+          <button class="btn-default" role="plus">
+            <span class="glyphicon glyphicon-plus"></span>
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="row ligne">
+    <div class="col-md-12">
+      <div class="input-group">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Commentaires optionnels">
+        <span class="input-group-btn">
+          <button class="btn-default" role="edit">
+            <span class="glyphicon glyphicon-edit"></span>
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>  
+</div><!-- Ressources et commentaires -->

@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/fonts/Lato-Regular">
+    <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/ui-darkness/jquery-ui-1.10.4.custom.min.css">
+    <link rel="stylesheet" href="css/default.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" title=""><img src="img/projets.png"> Projets</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" menu="voir">
+                <b class="glyphicon glyphicon-eye-open"></b> Voir <b class="caret"></b></a>
+              <ul class="dropdown-menu text-left">
+                <li>
+                  <a menu="bilan">
+                    <b class="glyphicon glyphicon-stats"></b> Bilan
+                  </a>
+                </li>
+                <li><a menu="historique">
+                  <b class="glyphicon glyphicon-time"></b> Historique</a>
+                </li>
+                <li><a menu="documents">
+                  <b class="glyphicon glyphicon-file"></b> Documents</a>
+                </li>
+                <li><a menu="archives">
+                  <b class="glyphicon glyphicon-cloud"></b> Archives</a>
+                </li>
+                <li><a menu="projets">
+                  <b class="glyphicon glyphicon-bullhorn"></b> Autres projets</a>
+                </li>
+                <li><a menu="personnel">
+                  <b class="glyphicon glyphicon-user"></b> Personnel</a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" menu="saisir">
+                <b class="glyphicon glyphicon-pencil">
+                </b> Saisir <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu text-left">
+                <li>
+                  <a menu="session">
+                    <b class="glyphicon glyphicon-step-forward">
+                    </b> Une séance</a>
+                </li>
+                <li>
+                  <a menu="document"><b class="glyphicon glyphicon-plus">
+                    </b> Un document</a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" menu="choisir">
+                <span class="glyphicon glyphicon-filter"></span> Choisir <b class="caret"></b></a>
+              <ul class="dropdown-menu text-left">
+                <li>
+                  <a menu="projet">
+                    <b class="glyphicon glyphicon-tasks"></b> Projet
+                  </a>
+                </li>
+                <li>
+                  <a menu="etudiant">
+                    <b class="glyphicon glyphicon-user"></b> Étudiant
+                  </a>
+                </li>
+                <li>
+                  <a menu="personnel">
+                    <b class="glyphicon glyphicon-bullhorn"></b> Personnel
+                  </a>
+                </li>
+                <li>
+                  <a menu="production">
+                    <b class="glyphicon glyphicon-warning-sign"></b> Matériel de production
+                  </a>
+                </li>
+                <li>
+                  <a menu="couts">
+                    <b class="glyphicon glyphicon-euro"></b>
+                    Coûts
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" menu="definir">
+                <span class="glyphicon glyphicon-edit"></span>
+                Définir 
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu text-left">
+                <li>
+                  <a menu="sessions">
+                    <b class="glyphicon glyphicon-calendar"></b>
+                    Séances
+                  </a>
+                </li>
+                <li>
+                  <a menu="projets">
+                    <b class="glyphicon glyphicon-tasks"></b>
+                    Projets
+                  </a>
+                </li>
+                <li>
+                  <a menu="etudiants">
+                    <b class="glyphicon glyphicon-user"></b>
+                    Étudiants
+                  </a>
+                </li>
+                <li>
+                  <a menu="couts">
+                    <b class="glyphicon glyphicon-euro"></b>
+                    Coûts
+                  </a>
+                </li>
+                <li>
+                  <a menu="listes">
+                    <b class="glyphicon glyphicon-list"></b>
+                    Listes
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <button
+              class   = "btn-primary navbar-btn"
+              menu = "logout">
+              <span class="glyphicon glyphicon-off"></span> Sortir
+            </button>
+            <button
+              class       = "dropdown-toggle btn-primary navbar-btn"
+              data-toggle = "dropdown"
+              menu        = "login">
+              <b class="glyphicon glyphicon-off"></b> Entrer <b class="caret"></b>
+            </button>
+            <ul
+              class           = "dropdown-menu"
+              role            = "menu"
+              aria-labelledby = "dLabel">
+              <li><a menu="univ"><b class="glyphicon glyphicon-briefcase"></b> Compte université</a></li>
+              <li><a menu="perso"><b class="glyphicon glyphicon-user"></b> Imel personnel</a></li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="contenu" class="container">
+    </div>
+    <div id="footer">
+      <div class="container">
+        <p class="text-muted">
+          &copy; <a href="mailto:eric.suet@univ-nantes.fr">Eric SUET</a>
+          &bull; <a href="http://www.iutsn.fr" target="_blank">IUT de Saint-Nazaire</a>
+          &bull; <a href="http://www.univ-nantes.fr" target="_blank">Université de Nantes</a></p>
+      </div>
+    </div>
+    <script src="js/jquery-2.1.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+    <script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/jquery.peity.min.js"></script>
+    <script src="js/saisie.js"></script>
+  </body>
+</html>
